@@ -21,14 +21,14 @@ s.author = { "Hassan Refaat" => "hassan.refaat@vezeeta.com" }
 
 
 # 5 - Replace this URL with your own Github page's URL (from the address bar)
-s.homepage = "https://github.com/hassan8357/VZLoadingIndicator.git"
+s.homepage = "https://github.com/hassan8357/VZLoadingIndicator"
 
 # For example,
 # s.homepage = "https://github.com/JRG-Developer/RWPickFlavor"
 
 
 # 6 - Replace this URL with your own Git URL from "Quick Setup"
-s.source = { :git => "https://github.com/hassan8357/VZLoadingIndicator.git", :tag => "#{s.version}"}
+s.source = { :git => "https://github.com/hassan8357/VZLoadingIndicator.git", :tag => s.version.to_s}
 
 # For example,
 # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
@@ -38,6 +38,6 @@ s.source = { :git => "https://github.com/hassan8357/VZLoadingIndicator.git", :ta
 s.framework = "UIKit"
 
 # 8
-s.source_files = "VZLoadingIndicator/**/*.{h,m}"
+s.source_files = "VZLoadingIndicator/*.{h,m}"
 
 end
