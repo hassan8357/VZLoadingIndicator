@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char VZLoadingIndicatorVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <VZLoadingIndicator/PublicHeader.h>
 
-
+#import "VZLoadingIndicator/UIWindow+Additions.h"
