@@ -40,7 +40,7 @@
         self.rotationImageView.image = [UIImage imageNamed:@"L.png"];
         [self.containerView addSubview:self.rotationImageView];
         
-        images = @[@"L.png", @"L2.png",@"L3.png", @"L4.png",@"L5.png", @"L6.png", @"L7.png"];
+        images = @[@"VZLoadingIndicatorImages.bundle/L.png", @"VZLoadingIndicatorImages.bundle/L2.png",@"VZLoadingIndicatorImages.bundle/L3.png", @"VZLoadingIndicatorImages.bundle/L4.png",@"VZLoadingIndicatorImages.bundle/L5.png", @"VZLoadingIndicatorImages.bundle/L6.png", @"VZLoadingIndicatorImages.bundle/L7.png"];
 
         [self setupConstrains];
         
