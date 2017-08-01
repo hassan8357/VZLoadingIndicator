@@ -40,4 +40,7 @@ s.framework = "UIKit"
 # 8
 s.source_files = "VZLoadingIndicator/*.{h,m}"
 
+# 9
+s.resources = "VZLoadingIndicator/**/*.{png}"
+  
 end
