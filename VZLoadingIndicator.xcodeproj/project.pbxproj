@@ -10,6 +10,15 @@
 		5CECF1A71F308274004ADDAD /* VZLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF1A51F308274004ADDAD /* VZLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CECF1AF1F308298004ADDAD /* CustomLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF1AD1F308298004ADDAD /* CustomLoadingView.h */; };
 		5CECF1B01F308298004ADDAD /* CustomLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECF1AE1F308298004ADDAD /* CustomLoadingView.m */; };
+		5CECF24E1F30AA0B004ADDAD /* L.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF2471F30AA0B004ADDAD /* L.png */; };
+		5CECF24F1F30AA0B004ADDAD /* L2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF2481F30AA0B004ADDAD /* L2.png */; };
+		5CECF2501F30AA0B004ADDAD /* L3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF2491F30AA0B004ADDAD /* L3.png */; };
+		5CECF2511F30AA0B004ADDAD /* L4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF24A1F30AA0B004ADDAD /* L4.png */; };
+		5CECF2521F30AA0B004ADDAD /* L5.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF24B1F30AA0B004ADDAD /* L5.png */; };
+		5CECF2531F30AA0B004ADDAD /* L6.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF24C1F30AA0B004ADDAD /* L6.png */; };
+		5CECF2541F30AA0B004ADDAD /* L7.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CECF24D1F30AA0B004ADDAD /* L7.png */; };
+		5CECF2571F30AA12004ADDAD /* UIWindow+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF2551F30AA12004ADDAD /* UIWindow+Additions.h */; };
+		5CECF2581F30AA12004ADDAD /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECF2561F30AA12004ADDAD /* UIWindow+Additions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +27,15 @@
 		5CECF1A61F308274004ADDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5CECF1AD1F308298004ADDAD /* CustomLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLoadingView.h; sourceTree = "<group>"; };
 		5CECF1AE1F308298004ADDAD /* CustomLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLoadingView.m; sourceTree = "<group>"; };
+		5CECF2471F30AA0B004ADDAD /* L.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L.png; sourceTree = "<group>"; };
+		5CECF2481F30AA0B004ADDAD /* L2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L2.png; sourceTree = "<group>"; };
+		5CECF2491F30AA0B004ADDAD /* L3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L3.png; sourceTree = "<group>"; };
+		5CECF24A1F30AA0B004ADDAD /* L4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L4.png; sourceTree = "<group>"; };
+		5CECF24B1F30AA0B004ADDAD /* L5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L5.png; sourceTree = "<group>"; };
+		5CECF24C1F30AA0B004ADDAD /* L6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L6.png; sourceTree = "<group>"; };
+		5CECF24D1F30AA0B004ADDAD /* L7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = L7.png; sourceTree = "<group>"; };
+		5CECF2551F30AA12004ADDAD /* UIWindow+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Additions.h"; sourceTree = "<group>"; };
+		5CECF2561F30AA12004ADDAD /* UIWindow+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +68,29 @@
 		5CECF1A41F308274004ADDAD /* VZLoadingIndicator */ = {
 			isa = PBXGroup;
 			children = (
+				5CECF2461F30A9FE004ADDAD /* Resources */,
 				5CECF1A51F308274004ADDAD /* VZLoadingIndicator.h */,
 				5CECF1AD1F308298004ADDAD /* CustomLoadingView.h */,
 				5CECF1AE1F308298004ADDAD /* CustomLoadingView.m */,
+				5CECF2551F30AA12004ADDAD /* UIWindow+Additions.h */,
+				5CECF2561F30AA12004ADDAD /* UIWindow+Additions.m */,
 				5CECF1A61F308274004ADDAD /* Info.plist */,
 			);
 			path = VZLoadingIndicator;
+			sourceTree = "<group>";
+		};
+		5CECF2461F30A9FE004ADDAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5CECF2471F30AA0B004ADDAD /* L.png */,
+				5CECF2481F30AA0B004ADDAD /* L2.png */,
+				5CECF2491F30AA0B004ADDAD /* L3.png */,
+				5CECF24A1F30AA0B004ADDAD /* L4.png */,
+				5CECF24B1F30AA0B004ADDAD /* L5.png */,
+				5CECF24C1F30AA0B004ADDAD /* L6.png */,
+				5CECF24D1F30AA0B004ADDAD /* L7.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -66,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CECF1A71F308274004ADDAD /* VZLoadingIndicator.h in Headers */,
+				5CECF2571F30AA12004ADDAD /* UIWindow+Additions.h in Headers */,
 				5CECF1AF1F308298004ADDAD /* CustomLoadingView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +165,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CECF2521F30AA0B004ADDAD /* L5.png in Resources */,
+				5CECF24E1F30AA0B004ADDAD /* L.png in Resources */,
+				5CECF2541F30AA0B004ADDAD /* L7.png in Resources */,
+				5CECF2511F30AA0B004ADDAD /* L4.png in Resources */,
+				5CECF24F1F30AA0B004ADDAD /* L2.png in Resources */,
+				5CECF2501F30AA0B004ADDAD /* L3.png in Resources */,
+				5CECF2531F30AA0B004ADDAD /* L6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CECF1B01F308298004ADDAD /* CustomLoadingView.m in Sources */,
+				5CECF2581F30AA12004ADDAD /* UIWindow+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +343,7 @@
 				5CECF1AC1F308274004ADDAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
