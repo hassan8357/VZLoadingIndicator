@@ -38,7 +38,7 @@ s.source = { :git => "https://github.com/hassan8357/VZLoadingIndicator.git", :ta
 s.framework = "UIKit"
 
 # 8
-s.source_files = "VZLoadingIndicator/*.{h,m}"
+s.source_files = "VZLoadingIndicator/**/*.{h,m}"
 
 # 9
 #s.resources = "VZLoadingIndicator/**/*.{png}"
