@@ -9,6 +9,14 @@
 #import "CustomLoadingView.h"
 #import <QuartzCore/QuartzCore.h>
 
+@interface CustomLoadingView()
+
+@property (nonatomic, strong) UIView *containerView;
+@property (nonatomic, strong) UIView *redLineView;
+@property (nonatomic, strong) UIImageView *rotationImageView;
+
+@end
+
 @implementation CustomLoadingView
 {
     NSArray *images;
@@ -40,8 +48,6 @@
         self.rotationImageView.image = [UIImage imageNamed:@"L.png"];
         [self.containerView addSubview:self.rotationImageView];
         
-        images = @[@"VZLoadingIndicatorImages.bundle/L.png", @"VZLoadingIndicatorImages.bundle/L2.png",@"VZLoadingIndicatorImages.bundle/L3.png", @"VZLoadingIndicatorImages.bundle/L4.png",@"VZLoadingIndicatorImages.bundle/L5.png", @"VZLoadingIndicatorImages.bundle/L6.png", @"VZLoadingIndicatorImages.bundle/L7.png"];
-
         [self setupConstrains];
         
         self.backgroundColor = [UIColor colorWithWhite:0 alpha:0.5];
@@ -149,6 +155,10 @@
     self.containerView.layer.cornerRadius = 10;
     self.containerView.layer.masksToBounds = YES;
 
+}
+
+-(void)setImagesArray:(NSArray*)imagesArray {
+    images = imagesArray;
 }
 
 @end

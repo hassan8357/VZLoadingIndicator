@@ -10,9 +10,7 @@
 
 @interface CustomLoadingView : UIView
 
-@property (nonatomic, strong) UIView *containerView;
-@property (nonatomic, strong) UIView *redLineView;
-@property (nonatomic, strong) UIImageView *rotationImageView;
+-(void)setImagesArray:(NSArray*)imagesArray;
 
 - (void)startAnimation;
 - (void)stopAnimation;

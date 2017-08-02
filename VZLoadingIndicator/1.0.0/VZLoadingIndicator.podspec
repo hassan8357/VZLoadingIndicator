@@ -8,7 +8,7 @@ s.summary = "VZLoadingIndicator is a loading indicator for Vezeeta."
 s.requires_arc = true
 
 # 2
-s.version = “0.3.0”
+s.version = “1.0.0”
 
 # 3
 s.license = { :type => "MIT", :file => "LICENSE" }
@@ -39,13 +39,5 @@ s.framework = "UIKit"
 
 # 8
 s.source_files = "VZLoadingIndicator/**/*.{h,m}"
-
-# 9
-s.resources = "VZLoadingIndicator/**/*.{png}"
-  
-#10  
-s.resource_bundles = {
-    'VZLoadingIndicator' => ['VZLoadingIndicator/VZLoadingIndicatorImages.bundle/*']
-  }
   
 end
