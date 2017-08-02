@@ -41,6 +41,11 @@ s.framework = "UIKit"
 s.source_files = "VZLoadingIndicator/**/*.{h,m}"
 
 # 9
-s.resources = "VZLoadingIndicator/VZLoadingIndicatorImages.bundle"
+s.resources = "VZLoadingIndicator/**/*.{png}"
+  
+#10  
+s.resource_bundles = {
+    'VZLoadingIndicator' => ['VZLoadingIndicator/VZLoadingIndicatorImages.bundle/*']
+  }
   
 end
