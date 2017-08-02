@@ -8,18 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		5CECF1A71F308274004ADDAD /* VZLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF1A51F308274004ADDAD /* VZLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5CECF1AF1F308298004ADDAD /* CustomLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF1AD1F308298004ADDAD /* CustomLoadingView.h */; };
-		5CECF1B01F308298004ADDAD /* CustomLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECF1AE1F308298004ADDAD /* CustomLoadingView.m */; };
+		5CECF1AF1F308298004ADDAD /* VZLoadingIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF1AD1F308298004ADDAD /* VZLoadingIndicatorView.h */; };
 		5CECF2571F30AA12004ADDAD /* UIWindow+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CECF2551F30AA12004ADDAD /* UIWindow+Additions.h */; };
 		5CECF2581F30AA12004ADDAD /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECF2561F30AA12004ADDAD /* UIWindow+Additions.m */; };
+		5CF4EE061F3241BE00929122 /* VZLoadingIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CECF1AE1F308298004ADDAD /* VZLoadingIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5CECF1A21F308274004ADDAD /* VZLoadingIndicator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VZLoadingIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CECF1A51F308274004ADDAD /* VZLoadingIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VZLoadingIndicator.h; sourceTree = "<group>"; };
 		5CECF1A61F308274004ADDAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5CECF1AD1F308298004ADDAD /* CustomLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLoadingView.h; sourceTree = "<group>"; };
-		5CECF1AE1F308298004ADDAD /* CustomLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLoadingView.m; sourceTree = "<group>"; };
+		5CECF1AD1F308298004ADDAD /* VZLoadingIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VZLoadingIndicatorView.h; sourceTree = "<group>"; };
+		5CECF1AE1F308298004ADDAD /* VZLoadingIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VZLoadingIndicatorView.m; sourceTree = "<group>"; };
 		5CECF2551F30AA12004ADDAD /* UIWindow+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+Additions.h"; sourceTree = "<group>"; };
 		5CECF2561F30AA12004ADDAD /* UIWindow+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+Additions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				5CECF1A51F308274004ADDAD /* VZLoadingIndicator.h */,
-				5CECF1AD1F308298004ADDAD /* CustomLoadingView.h */,
-				5CECF1AE1F308298004ADDAD /* CustomLoadingView.m */,
+				5CECF1AD1F308298004ADDAD /* VZLoadingIndicatorView.h */,
+				5CECF1AE1F308298004ADDAD /* VZLoadingIndicatorView.m */,
 				5CECF2551F30AA12004ADDAD /* UIWindow+Additions.h */,
 				5CECF2561F30AA12004ADDAD /* UIWindow+Additions.m */,
 				5CECF1A61F308274004ADDAD /* Info.plist */,
@@ -73,7 +73,7 @@
 			files = (
 				5CECF1A71F308274004ADDAD /* VZLoadingIndicator.h in Headers */,
 				5CECF2571F30AA12004ADDAD /* UIWindow+Additions.h in Headers */,
-				5CECF1AF1F308298004ADDAD /* CustomLoadingView.h in Headers */,
+				5CECF1AF1F308298004ADDAD /* VZLoadingIndicatorView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,8 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CECF1B01F308298004ADDAD /* CustomLoadingView.m in Sources */,
 				5CECF2581F30AA12004ADDAD /* UIWindow+Additions.m in Sources */,
+				5CF4EE061F3241BE00929122 /* VZLoadingIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

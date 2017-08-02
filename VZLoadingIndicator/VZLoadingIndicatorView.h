@@ -8,7 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIWindow (Additions)
-- (UIViewController *) visibleViewController;
+@interface VZLoadingIndicatorView : UIView
+
+-(void)setImagesArray:(NSArray*)imagesArray;
+
+- (void)startAnimation;
+- (void)stopAnimation;
 
 @end

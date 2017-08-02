@@ -1,9 +1,9 @@
 //
-//  VZLoadingIndicator.h
-//  VZLoadingIndicator
+//  UIWindow+Additions.m
+//  VezeetaDoctors
 //
-//  Created by Hassan on 8/1/17.
-//  Copyright © 2017 Vezeeta. All rights reserved.
+//  Created by Ahmed Gamal on 11/7/16.
+//  Copyright © 2016 Vezeeta. All rights reserved.
 //
 
 #import "UIWindow+Additions.h"

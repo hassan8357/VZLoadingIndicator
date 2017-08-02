@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E2D2FB2C4E138FC333DA9109EDCBCA /* Pods-VZLoadingIndicatorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 464B2CA0E8BAFA4407928AC9AF21B870 /* Pods-VZLoadingIndicatorDemo-dummy.m */; };
+		1C18C36C6FC42EB21877B6860CF6C648 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		564E96B7C5B41C116C98DF2C4451C7D8 /* UIWindow+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = B516DB84E0DA06CB89CC3DEFADE7B7EE /* UIWindow+Additions.m */; };
+		6FE1993CAB68F5B161746624C26B627C /* UIWindow+Additions.h in Headers */ = {isa = PBXBuildFile; fileRef = 665BE16D2BB6CF1F7DFDE4AA0EDE1AE6 /* UIWindow+Additions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76CA64DBEAF71B776B211214ED57BFDE /* VZLoadingIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5729CF3138E2589F35EB78F5945B3F4 /* VZLoadingIndicator-dummy.m */; };
+		7804F4FF9B1AFB0534AE5327518707DB /* CustomLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = AC58A275144288FAA114DAE9753D9483 /* CustomLoadingView.m */; };
+		8A9F2F9B25E04AF0CED753AF1F83807A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		AA9CD52071D4ABB19810A9453413DFB7 /* VZLoadingIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C60F33C9693F92D326CB8B87EAB2CA0 /* VZLoadingIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AAB6A547FD49C5E45AF896088AA86BC7 /* CustomLoadingView.h in Headers */ = {isa = PBXBuildFile; fileRef = F99EE6905EC20356D599CD6EF8A6C4BB /* CustomLoadingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D88CA84AB60C7F26B598BB87F4D375C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5B3EB6C928FB848153C93368DE08405 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F028FA561C70C805EC038EB228403037;
+			remoteInfo = VZLoadingIndicator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E68EF84001D6D04EED09CB322780D1E /* Pods-VZLoadingIndicatorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VZLoadingIndicatorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		12560B9B20B460EDD44FAC461FA2D6FB /* libVZLoadingIndicator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libVZLoadingIndicator.a; path = libVZLoadingIndicator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C60F33C9693F92D326CB8B87EAB2CA0 /* VZLoadingIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VZLoadingIndicator.h; path = VZLoadingIndicator/VZLoadingIndicator.h; sourceTree = "<group>"; };
+		36E35472BDCAC6C2D57A42A3D97525CF /* VZLoadingIndicator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VZLoadingIndicator.xcconfig; sourceTree = "<group>"; };
+		3F10E5D734B73EF33F513C74809EC963 /* Pods-VZLoadingIndicatorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VZLoadingIndicatorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		464B2CA0E8BAFA4407928AC9AF21B870 /* Pods-VZLoadingIndicatorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VZLoadingIndicatorDemo-dummy.m"; sourceTree = "<group>"; };
+		52ED99CE805351D849025DA5876DA943 /* Pods-VZLoadingIndicatorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VZLoadingIndicatorDemo-resources.sh"; sourceTree = "<group>"; };
+		5745250B4BF58C770EA024232FE2A618 /* Pods-VZLoadingIndicatorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VZLoadingIndicatorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		665BE16D2BB6CF1F7DFDE4AA0EDE1AE6 /* UIWindow+Additions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+Additions.h"; path = "VZLoadingIndicator/UIWindow+Additions.h"; sourceTree = "<group>"; };
+		6D750CA5EAEC186B3E15FF1F52B19B7B /* libPods-VZLoadingIndicatorDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-VZLoadingIndicatorDemo.a"; path = "libPods-VZLoadingIndicatorDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC58A275144288FAA114DAE9753D9483 /* CustomLoadingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CustomLoadingView.m; path = VZLoadingIndicator/CustomLoadingView.m; sourceTree = "<group>"; };
+		B516DB84E0DA06CB89CC3DEFADE7B7EE /* UIWindow+Additions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+Additions.m"; path = "VZLoadingIndicator/UIWindow+Additions.m"; sourceTree = "<group>"; };
+		C5B8C420D7F7586AD14F70809885DE99 /* Pods-VZLoadingIndicatorDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VZLoadingIndicatorDemo-frameworks.sh"; sourceTree = "<group>"; };
+		CBA3D07CCE87F2F16C4C8A49D077EF48 /* VZLoadingIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VZLoadingIndicator-prefix.pch"; sourceTree = "<group>"; };
+		D1BD7AA546D9B9CA342537C53AE04EB2 /* Pods-VZLoadingIndicatorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VZLoadingIndicatorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D5729CF3138E2589F35EB78F5945B3F4 /* VZLoadingIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VZLoadingIndicator-dummy.m"; sourceTree = "<group>"; };
+		F99EE6905EC20356D599CD6EF8A6C4BB /* CustomLoadingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CustomLoadingView.h; path = VZLoadingIndicator/CustomLoadingView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8447F7973B23568DA64F62F90FDCE87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9F2F9B25E04AF0CED753AF1F83807A /* Foundation.framework in Frameworks */,
+				D88CA84AB60C7F26B598BB87F4D375C7 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDED3C1062D4606ED80F7DD374064A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C18C36C6FC42EB21877B6860CF6C648 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0641DA1A998FECD3825D0CFC53D6C7C5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36E35472BDCAC6C2D57A42A3D97525CF /* VZLoadingIndicator.xcconfig */,
+				D5729CF3138E2589F35EB78F5945B3F4 /* VZLoadingIndicator-dummy.m */,
+				CBA3D07CCE87F2F16C4C8A49D077EF48 /* VZLoadingIndicator-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VZLoadingIndicator";
+			sourceTree = "<group>";
+		};
+		27536171103F713FD948647BEA0B04A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B855E251E8B4307C2F2565889818CC74 /* VZLoadingIndicator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47CD389A4346A3E9F9C1C6A8BF95CAAB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E589BEF063CB7BDDE23371594A99D8BF /* Pods-VZLoadingIndicatorDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		55BF826FD4796D87FA639ED803B5AB11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6D750CA5EAEC186B3E15FF1F52B19B7B /* libPods-VZLoadingIndicatorDemo.a */,
+				12560B9B20B460EDD44FAC461FA2D6FB /* libVZLoadingIndicator.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				27536171103F713FD948647BEA0B04A4 /* Pods */,
+				55BF826FD4796D87FA639ED803B5AB11 /* Products */,
+				47CD389A4346A3E9F9C1C6A8BF95CAAB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B855E251E8B4307C2F2565889818CC74 /* VZLoadingIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				F99EE6905EC20356D599CD6EF8A6C4BB /* CustomLoadingView.h */,
+				AC58A275144288FAA114DAE9753D9483 /* CustomLoadingView.m */,
+				665BE16D2BB6CF1F7DFDE4AA0EDE1AE6 /* UIWindow+Additions.h */,
+				B516DB84E0DA06CB89CC3DEFADE7B7EE /* UIWindow+Additions.m */,
+				1C60F33C9693F92D326CB8B87EAB2CA0 /* VZLoadingIndicator.h */,
+				0641DA1A998FECD3825D0CFC53D6C7C5 /* Support Files */,
+			);
+			name = VZLoadingIndicator;
+			path = VZLoadingIndicator;
+			sourceTree = "<group>";
+		};
+		E589BEF063CB7BDDE23371594A99D8BF /* Pods-VZLoadingIndicatorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				3F10E5D734B73EF33F513C74809EC963 /* Pods-VZLoadingIndicatorDemo-acknowledgements.markdown */,
+				5745250B4BF58C770EA024232FE2A618 /* Pods-VZLoadingIndicatorDemo-acknowledgements.plist */,
+				464B2CA0E8BAFA4407928AC9AF21B870 /* Pods-VZLoadingIndicatorDemo-dummy.m */,
+				C5B8C420D7F7586AD14F70809885DE99 /* Pods-VZLoadingIndicatorDemo-frameworks.sh */,
+				52ED99CE805351D849025DA5876DA943 /* Pods-VZLoadingIndicatorDemo-resources.sh */,
+				0E68EF84001D6D04EED09CB322780D1E /* Pods-VZLoadingIndicatorDemo.debug.xcconfig */,
+				D1BD7AA546D9B9CA342537C53AE04EB2 /* Pods-VZLoadingIndicatorDemo.release.xcconfig */,
+			);
+			name = "Pods-VZLoadingIndicatorDemo";
+			path = "Target Support Files/Pods-VZLoadingIndicatorDemo";
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2977D2CEFC3B7D7604A09AAFD1AA7630 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAB6A547FD49C5E45AF896088AA86BC7 /* CustomLoadingView.h in Headers */,
+				6FE1993CAB68F5B161746624C26B627C /* UIWindow+Additions.h in Headers */,
+				AA9CD52071D4ABB19810A9453413DFB7 /* VZLoadingIndicator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		564C375FB0DE755EA6FF5CFDE8C4A7E5 /* Pods-VZLoadingIndicatorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 897D970DFE50CC465BB8214B8E290C29 /* Build configuration list for PBXNativeTarget "Pods-VZLoadingIndicatorDemo" */;
+			buildPhases = (
+				C94BC8D637D684806EE7FA4C08753A0C /* Sources */,
+				CDED3C1062D4606ED80F7DD374064A2E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D33797FC7248AE20707BA9E7A9D72AD /* PBXTargetDependency */,
+			);
+			name = "Pods-VZLoadingIndicatorDemo";
+			productName = "Pods-VZLoadingIndicatorDemo";
+			productReference = 6D750CA5EAEC186B3E15FF1F52B19B7B /* libPods-VZLoadingIndicatorDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F028FA561C70C805EC038EB228403037 /* VZLoadingIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CF15F5385F5D531B4F3ECC7F62F66D5 /* Build configuration list for PBXNativeTarget "VZLoadingIndicator" */;
+			buildPhases = (
+				E8DA7C09A3E252B024BBAB7A5B34A13D /* Sources */,
+				8447F7973B23568DA64F62F90FDCE87F /* Frameworks */,
+				2977D2CEFC3B7D7604A09AAFD1AA7630 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VZLoadingIndicator;
+			productName = VZLoadingIndicator;
+			productReference = 12560B9B20B460EDD44FAC461FA2D6FB /* libVZLoadingIndicator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 55BF826FD4796D87FA639ED803B5AB11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564C375FB0DE755EA6FF5CFDE8C4A7E5 /* Pods-VZLoadingIndicatorDemo */,
+				F028FA561C70C805EC038EB228403037 /* VZLoadingIndicator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C94BC8D637D684806EE7FA4C08753A0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E2D2FB2C4E138FC333DA9109EDCBCA /* Pods-VZLoadingIndicatorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DA7C09A3E252B024BBAB7A5B34A13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7804F4FF9B1AFB0534AE5327518707DB /* CustomLoadingView.m in Sources */,
+				564E96B7C5B41C116C98DF2C4451C7D8 /* UIWindow+Additions.m in Sources */,
+				76CA64DBEAF71B776B211214ED57BFDE /* VZLoadingIndicator-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D33797FC7248AE20707BA9E7A9D72AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VZLoadingIndicator;
+			target = F028FA561C70C805EC038EB228403037 /* VZLoadingIndicator */;
+			targetProxy = C5B3EB6C928FB848153C93368DE08405 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5BDC3D6E3B65D1D9E5761F344DA6F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1BD7AA546D9B9CA342537C53AE04EB2 /* Pods-VZLoadingIndicatorDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D064619EFFC8D2072E7D3F1C6E64DB32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E35472BDCAC6C2D57A42A3D97525CF /* VZLoadingIndicator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VZLoadingIndicator/VZLoadingIndicator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DC9F5153BE45CD750142F3CF5548730D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36E35472BDCAC6C2D57A42A3D97525CF /* VZLoadingIndicator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VZLoadingIndicator/VZLoadingIndicator-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FF76FB7205B1AAC9F79BE8E2A22D7E87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E68EF84001D6D04EED09CB322780D1E /* Pods-VZLoadingIndicatorDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CF15F5385F5D531B4F3ECC7F62F66D5 /* Build configuration list for PBXNativeTarget "VZLoadingIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC9F5153BE45CD750142F3CF5548730D /* Debug */,
+				D064619EFFC8D2072E7D3F1C6E64DB32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		897D970DFE50CC465BB8214B8E290C29 /* Build configuration list for PBXNativeTarget "Pods-VZLoadingIndicatorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF76FB7205B1AAC9F79BE8E2A22D7E87 /* Debug */,
+				B5BDC3D6E3B65D1D9E5761F344DA6F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
