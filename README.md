@@ -65,7 +65,7 @@ Add start method and end methods in app delegate to add/remove loadinView to cur
     if (!appDelegate.loadinView)
     {
         [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
-        appDelegate.loadinView = [[CustomLoadingView alloc] init];
+        appDelegate.loadinView = [[VZLoadingIndicatorView alloc] init];
         [appDelegate.loadinView setImagesArray:@[@"L.png", @"L2.png",@"L3.png", @"L4.png",@"L5.png", @"L6.png", @"L7.png"]];
         UIViewController *visibleViewController = [self.window visibleViewController];
         UIViewController *viewController = visibleViewController;
