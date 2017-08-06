@@ -55,18 +55,18 @@ define sharedAppDelegate
 
 create loadingView
 ``` objective-c
-@property (strong, nonatomic) VZLoadingIndicatorView *loadinView;
+@property (strong, nonatomic) VZLoadingIndicatorView *loadingView;
 ```
 
-Add start method and end methods in app delegate to add/remove loadinView to current visable view
+Add start method and end methods in app delegate to add/remove loadingView to current visable view
 ``` objective-c
 - (void)startActivityIndicator{
     
-    if (!appDelegate.loadinView)
+    if (!appDelegate.loadingView)
     {
         [[UIApplication sharedApplication] sendAction:@selector(resignFirstResponder) to:nil from:nil forEvent:nil];
-        appDelegate.loadinView = [[VZLoadingIndicatorView alloc] init];
-        [appDelegate.loadinView setImagesArray:@[@"L.png", @"L2.png",@"L3.png", @"L4.png",@"L5.png", @"L6.png", @"L7.png"]];
+        appDelegate.loadingView = [[VZLoadingIndicatorView alloc] init];
+        [appDelegate.loadingView setImagesArray:@[@"L.png", @"L2.png",@"L3.png", @"L4.png",@"L5.png", @"L6.png", @"L7.png"]];
         UIViewController *visibleViewController = [self.window visibleViewController];
         UIViewController *viewController = visibleViewController;
         if (visibleViewController.navigationController)
@@ -80,11 +80,11 @@ Add start method and end methods in app delegate to add/remove loadinView to cur
         frame.size.height = viewController.view.frame.size.height;
         frame.origin.x = 0;
         frame.origin.y = 0;
-        appDelegate.loadinView.frame = frame;
+        appDelegate.loadingView.frame = frame;
         
-        [viewController.view addSubview: appDelegate.loadinView];
+        [viewController.view addSubview: appDelegate.loadingView];
         
-        [appDelegate.loadinView startAnimation];
+        [appDelegate.loadingView startAnimation];
     }
     
 }
@@ -99,19 +99,19 @@ Add start method and end methods in app delegate to add/remove loadinView to cur
         viewController = visibleViewController.navigationController;
         
     }
-    if (appDelegate.loadinView) {
-        [appDelegate.loadinView stopAnimation];
-        [appDelegate.loadinView removeFromSuperview];
-        appDelegate.loadinView = nil;
+    if (appDelegate.loadingView) {
+        [appDelegate.loadingView stopAnimation];
+        [appDelegate.loadingView removeFromSuperview];
+        appDelegate.loadingView = nil;
     }
 }
 ```
 
 ## Hint
 
-you should set images array to loadinView to animate them.
+you should set images array to loadingView to animate them.
 ``` objective-c
-[appDelegate.loadinView setImagesArray:@[@"L.png", @"L2.png",@"L3.png", @"L4.png",@"L5.png", @"L6.png", @"L7.png"]];
+[appDelegate.loadingView setImagesArray:@[@"L.png", @"L2.png",@"L3.png", @"L4.png",@"L5.png", @"L6.png", @"L7.png"]];
 ```
 
 ## Contact
