@@ -28,9 +28,14 @@ use_frameworks!
 pod 'VZLoadingIndicator'
 ```
 
+Add source URLs
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/hassan8357/VZLoadingIndicator.git’
+```
+
 Then, run the following command.
 
 ```bash
 $ pod install
 ```
-
